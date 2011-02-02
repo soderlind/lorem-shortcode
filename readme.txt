@@ -1,16 +1,49 @@
 === lorem shortcode ===
 Contributors: PerS
 Donate link: http://soderlind.no/donate/
-Tags: lorem ipsum, dummy text, shortcode
+Tags: lorem ipsum, dummy text, dummy image, shortcode
 Requires at least: 2.8.6
-Tested up to: 3.0.2
+Tested up to: 3.0.4
 Stable tag: trunk
 
-The lorem shortcode for WordPress plugin adds a new shortcode to WordPress, the [lorem] shortcode.
+The plugin contains two shortcodes, lorem and loremimage, the loremimage shortcode can be nested in the lorem shortcode.
 
 == Description ==
+The plugin contains two shortcodes, `[lorem]` and `[loremimage]`, the `[loremimage]` shortcode can be nested in the `[lorem]` shortcode. The shortcodes generates dummy text and image when needed.
 
-The shortcode generates dummy text when needed. Use shortcode `[lorem]` to generate 5 paragraphs with 3 lines in each ,or `[lorem p="4" l="5"]`, p = number of paragraphs and l = number of lines per paragraph
+= Usage = 
+Add the `[lorem]` and/or `[loremimage]` shortcode to a post or page
+
+= Parameters, all are optional =
+
+`[lorem]`
+
+* p="3" Number of paragraphs. Default is 5
+* l="7", Number of lines per paragraph. Default is 3
+* align="right" This tells how you'd like to allign a nested shortcode. There are two alternatives, left or right. Default is right
+
+`[loremimage]`
+
+The loremimage is created using [http://dummyimage.com/](http://dummyimage.com/), and hence the shortcode supports the same parameters as [http://dummyimage.com/](http://dummyimage.com/). 
+
+* size="400x400" Image size. Default is 300x200
+* text="lorem ipsum" Default is empty
+* fgcolor="fff" Image foreground color. Default is "ccc"
+* bgcolor="ccc" Image foreground color. Default is  "eee"
+* format="png", Image format. Default is "png"
+
+I've added two additional parameters/values
+
+* size="thumb" This will create a thumbnail, size based on your WordPress image settings. The thumb links to another image and support Lightbox et al (has attribute `rel="lightbox[lorem]"`).
+* style="padding:5px;" Adds a style to the loremimage. Default is empty
+
+= Example =
+
+`
+[lorem p="1" l="20"]
+    [loremimage size="300x300" style="padding:5px;"]
+[/lorem]
+`
 
 == Installation ==
 
@@ -27,13 +60,6 @@ The shortcode generates dummy text when needed. Use shortcode `[lorem]` to gener
 * Search for "lorem shortcode"
 * Click on install to install the lorem shortcode
 
-= Usage = 
-* Add the `[lorem]` shortcode to a post or page
-
-= Parameters =
-* p="number of paragraphs" eg p="5"
-* l="number of lines per paragraph" eg l="3"
-
 
 == Frequently Asked Questions ==
 
@@ -49,6 +75,7 @@ Shortcode, a "shortcut to code", makes it easy to add funtionality to a page or 
 
 
 == Changelog ==
-
+= 1.1 =
+* Added support for embedded shortcodes and added the [loremimage] short code. The [loremimage] can be used by itself. The image is created using [http://dummyimage.com/](http://dummyimage.com/)
 = 1.0 = 
 * initial release
