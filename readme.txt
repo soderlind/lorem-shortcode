@@ -16,13 +16,13 @@ Add the `[lorem]` and/or `[loremimage]` shortcode to a post or page
 
 = Parameters, all are optional =
 
-`[lorem]`
+**[lorem]**
 
 * p="3" Number of paragraphs. Default is 5
 * l="7", Number of lines per paragraph. Default is 3
 * align="right" This tells how you'd like to allign a nested shortcode. There are two alternatives, left or right. Default is right
 
-`[loremimage]`
+**[loremimage]**
 
 The loremimage is created using [http://dummyimage.com/](http://dummyimage.com/), and hence the shortcode supports the same parameters as [http://dummyimage.com/](http://dummyimage.com/). 
 
