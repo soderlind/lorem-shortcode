@@ -45,6 +45,8 @@ I've added two additional parameters/values
 [/lorem]
 `
 
+For more information and screenshots, please see the [plugin home page](http://soderlind.no/archives/2010/11/17/lorem-shortcode/)
+
 == Installation ==
 
 = Requirement =
