@@ -3,7 +3,7 @@ Contributors: PerS
 Donate link: http://soderlind.no/donate/
 Tags: lorem ipsum, dummy text, dummy image, shortcode
 Requires at least: 2.8.6
-Tested up to: 3.0.4
+Tested up to: 3.5
 Stable tag: trunk
 
 The plugin contains two shortcodes, lorem and loremimage, the loremimage shortcode can be nested in the lorem shortcode.
