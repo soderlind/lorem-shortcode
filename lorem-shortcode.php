@@ -1,21 +1,13 @@
 <?php
 /*
 Plugin Name: lorem shortcode
-Version: 1.1
+Version: 1.1.1
 Plugin URI: http://soderlind.no/archives/2010/11/17/lorem-shortcode/
 Description: The shortcode generates dummy text when needed. Use shortcode [lorem] to generate 5 paragraphs with 3 lines in each ,or [lorem p="4" l="5"], p = number of paragraphs and l = number of lines per paragraph
 Author: Per Soderlind
 Author URI: http://www.soderlind.no
 */
-/*
-Pre-req: PHP 5.x
 
-Installation:
-	Save the plugin in wp-content/plugins (and activate from Plugins) or put it in wp-content/mu-plugins
-Change log:
-	1.1 - Added support for embedded shortcodes and added the [loremimage] short code. The [loremimage] can be used by itself. The image is created using http://dummyimage.com/
-    1.0 - initial release
-*/
 
 class pers_lorem {	
 	private $doparamcheck = true;
