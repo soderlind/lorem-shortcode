@@ -4,7 +4,7 @@ Donate link: http://soderlind.no/donate/
 Tags: lorem ipsum, dummy text, dummy image, shortcode
 Requires at least: 2.8.6
 Tested up to: 3.9
-Stable tag: 1.1.1
+Stable tag: 1.2.0
 
 The plugin contains two shortcodes, lorem and loremimage, the loremimage shortcode can be nested in the lorem shortcode.
 
@@ -78,6 +78,8 @@ Shortcode, a "shortcut to code", makes it easy to add funtionality to a page or 
 
 
 == Changelog ==
+= 1.2.0 =
+* Added [Shortcake](https://github.com/fusioneng/Shortcake)
 = 1.1.1 =
 * Tested with 3.9, bumped version number
 = 1.1 =
