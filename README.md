@@ -1,7 +1,7 @@
 lorem shortcode
 ===
 
-Contributors: PerS
+
 Donate link: http://soderlind.no/donate/
 Tags: lorem ipsum, dummy text, dummy image, shortcode
 Requires at least: 2.8.6
@@ -79,3 +79,8 @@ Installation
 * Added support for embedded shortcodes and added the [loremimage] short code. The [loremimage] can be used by itself. The image is created using [http://dummyimage.com/](http://dummyimage.com/)
 = 1.0 = 
 * initial release
+
+Contributors
+---
+
+- [Per Søderlind](https://github.com/soderlind)
