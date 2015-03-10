@@ -26,7 +26,7 @@ Add the `[lorem]` and/or `[loremimage]` shortcode to a post or page
 
 * p="3" Number of paragraphs. Default is 5
 * l="7", Number of lines per paragraph. Default is 3
-* w="3" Number of words per line.
+* w="3" Number of words per line. Default is 5
 * align="right" This tells how you'd like to allign a nested shortcode. There are two alternatives, left or right. Default is right
 
 **[loremimage]**
