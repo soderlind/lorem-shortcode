@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/soderlind/lorem-shortcode.svg?branch=master)](https://travis-ci.org/soderlind/lorem-shortcode) [![Code Climate](https://codeclimate.com/github/soderlind/lorem-shortcode/badges/gpa.svg)](https://codeclimate.com/github/soderlind/lorem-shortcode)
 lorem shortcode
 ===
 
@@ -10,7 +11,7 @@ Stable tag: 1.2.0
 
 The plugin contains two shortcodes, `lorem` and `loremimage`, the `loremimage` shortcode can be nested in the `lorem` shortcode.
 
-Description 
+Description
 ---
 
 The plugin contains two shortcodes, `[lorem]` and `[loremimage]`, the `[loremimage]` shortcode can be nested in the `[lorem]` shortcode. The shortcodes generate dummy text and image when needed.
@@ -31,7 +32,7 @@ Add the `[lorem]` and/or `[loremimage]` shortcode to a post or page
 
 **[loremimage]**
 
-The loremimage is created using [http://dummyimage.com/](http://dummyimage.com/), and hence the shortcode supports the same parameters as [http://dummyimage.com/](http://dummyimage.com/). 
+The loremimage is created using [http://dummyimage.com/](http://dummyimage.com/), and hence the shortcode supports the same parameters as [http://dummyimage.com/](http://dummyimage.com/).
 
 * size="400x400" Image size. Default is 300x200
 * text="lorem ipsum" Default is empty
@@ -44,7 +45,7 @@ I've added two additional parameters/values
 * size="thumb" This will create a thumbnail, size based on your WordPress image settings. The thumb links to another image and support Lightbox et al (has attribute `rel="lightbox[lorem]"`).
 * style="padding:5px;" Adds a style to the loremimage. Default is empty
 
- **Example** 
+ **Example**
 
 [lorem p="1" l="20" w="5"]
     [loremimage size="300x300" style="padding:5px;"]
@@ -53,17 +54,17 @@ I've added two additional parameters/values
 
 For more information and screenshots, please see the [plugin home page](http://soderlind.no/archives/2010/11/17/lorem-shortcode/)
 
-Installation 
+Installation
 ---
 
-**Requirement** 
+**Requirement**
 * PHP: 5.2.x or newer
 
-**Manual Installation** 
+**Manual Installation**
 * Upload the files to wp-content/plugins/lorem-shortcode/
 * Activate the plugin
 
- **Automatic Installation** 
+ **Automatic Installation**
 * On your WordPress blog, open the Dashboard
 * Go to Plugins->Install New
 * Search for "lorem shortcode"
@@ -77,7 +78,7 @@ Installation
 * Tested with 3.9, bumped version number
 = 1.1 =
 * Added support for embedded shortcodes and added the [loremimage] short code. The [loremimage] can be used by itself. The image is created using [http://dummyimage.com/](http://dummyimage.com/)
-= 1.0 = 
+= 1.0 =
 * initial release
 
 Contributors
