@@ -12,7 +12,7 @@ The plugin contains two shortcodes, lorem and loremimage, the loremimage shortco
 The plugin contains two shortcodes, `[lorem]` and `[loremimage]`, the `[loremimage]` shortcode can be nested in the `[lorem]` shortcode. The shortcodes generates dummy text and image when needed.
 
 = Usage =
-Add the `[lorem]` and/or `[loremimage]` shortcode to a post or page
+Add the `[lorem]` and/or `[loremimage]` shortcode to a post or page, or if the [Shortcode UI](https://wordpress.org/plugins/shortcode-ui/) plugin is installed and activatec, in the visual editor, click `Add Media->Insert Post Element->Lorem Ipsum` to add the shortcode.
 
 = Parameters, all are optional =
 
@@ -63,8 +63,15 @@ For more information and screenshots, please see the [plugin home page](http://s
 * Search for "lorem shortcode"
 * Click on install to install the lorem shortcode
 
+= Optional =
+
+Install the [Shortcode UI](https://wordpress.org/plugins/shortcode-ui/) plugin and activate it.
 
 == Frequently Asked Questions ==
+
+= Where's the Shortcode UI? =
+
+You need to install the [Shortcode UI](https://wordpress.org/plugins/shortcode-ui/) plugin. When the Shortcode UI plugin is installed and activated, in the visual editor, click `Add Media->Insert Post Element->Lorem Ipsum` to add the shortcode.
 
 = What are shortcodes? =
 
@@ -76,6 +83,10 @@ Shortcode, a "shortcut to code", makes it easy to add funtionality to a page or 
 * At codplex, you'll find the [Shortcode API documented](http://codex.wordpress.org/Shortcode_API)
 * Also, feel free to use this plugin as a template for you own shortcode plugin
 
+== Screenshots ==
+
+1. Using Shortcode UI, insert `[lorem]` shortcode.
+2. Using Shortcode UI, edit existing `[lorem]` shortcode.
 
 == Changelog ==
 = 1.3.0 =
