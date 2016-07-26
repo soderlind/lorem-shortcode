@@ -1,0 +1,20 @@
+# Changelog
+
+- [2016-07-26](https://github.com/soderlind/lorem-shortcode/commit/bacc7eb): Add .pot language file (committer: soderlind) 
+- [2016-07-26](https://github.com/soderlind/lorem-shortcode/commit/7fd0b15): Add deployment scripts (committer: soderlind) 
+- [2016-07-26](https://github.com/soderlind/lorem-shortcode/commit/8268faa): Add wp directory banner. (committer: soderlind) 
+- [2016-07-26](https://github.com/soderlind/lorem-shortcode/commit/655488e): Remove old Shortcode UI files (committer: soderlind) 
+- [2016-07-26](https://github.com/soderlind/lorem-shortcode/commit/3abed8a): Update plugin to WPCS standards. Update Shortcode UI support. (committer: soderlind) 
+- [2016-07-26](https://github.com/soderlind/lorem-shortcode/commit/583f3a9): Update plugin to WPCS standards. (committer: soderlind) 
+- [2015-03-10](https://github.com/soderlind/lorem-shortcode/commit/89c7d35): Update README.md (committer: JQ) 
+- [2015-03-10](https://github.com/soderlind/lorem-shortcode/commit/a15092c): Update README.md (committer: JQ) 
+- [2015-03-10](https://github.com/soderlind/lorem-shortcode/commit/3a79fa5): Rename readme.txt to README.md (committer: JQ) 
+- [2015-03-10](https://github.com/soderlind/lorem-shortcode/commit/ed50e1d): Rename readme.txt to README.md (committer: JQ) 
+- [2015-03-06](https://github.com/soderlind/lorem-shortcode/commit/24a92e9): Reformatted according to WP standards (committer: JQ) 
+- [2015-03-06](https://github.com/soderlind/lorem-shortcode/commit/1964d21): Added support to control number words. (committer: JQ) 
+- [2014-11-26](https://github.com/soderlind/lorem-shortcode/commit/b4bf6d3): version bump (committer: soderlind) 
+- [2014-11-21](https://github.com/soderlind/lorem-shortcode/commit/e4c4f86): Updated changelog (committer: soderlind) 
+- [2014-11-21](https://github.com/soderlind/lorem-shortcode/commit/7c253cf): Added Shortcake (committer: soderlind) 
+- [2014-05-04](https://github.com/soderlind/lorem-shortcode/commit/0c4f29e): Tested with 3.9, bumped version number (committer: soderlind) 
+- [2013-03-06](https://github.com/soderlind/lorem-shortcode/commit/df4b809): added gitignore (committer: soderlind) 
+

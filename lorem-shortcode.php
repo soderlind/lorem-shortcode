@@ -1,7 +1,7 @@
 <?php
 /*
   Plugin Name: lorem shortcode
-  Version: 1.2.0
+  Version: 1.3.0
   Plugin URI: http://soderlind.no/archives/2010/11/17/lorem-shortcode/
   Description: The shortcode generates dummy text when needed. Use shortcode [lorem] to generate 5 paragraphs with 3 lines in each ,or [lorem p="4" l="5"], p = number of paragraphs and l = number of lines per paragraph
   Author: Per Soderlind
