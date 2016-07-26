@@ -23,6 +23,7 @@ ratings:
     - "**.php"
 exclude_paths:
   - node_modules/**/*
+  - build/**
   - languages/**
   - css/**
   - js/**

@@ -1,7 +1,7 @@
 # Travis CI (MIT License) configuration file
 # @link https://travis-ci.org/
 
-# Use new container based environment 
+# Use new container based environment
 sudo: false
 
 # Declare project language.
@@ -13,8 +13,8 @@ matrix:
   fast_finish: true
 
   include:
-    # aliased to 5.2.17
-    - php: '5.2'
+    # aliased to a recent 5.3.x version
+    - php: '5.3'
     # aliased to a recent 5.4.x version
     - php: '5.4'
     # aliased to a recent 5.6.x version
