@@ -45,12 +45,13 @@ I've added two additional parameters/values
 * size="thumb" This will create a thumbnail, size based on your WordPress image settings. The thumb links to another image and support Lightbox et al (has attribute `rel="lightbox[lorem]"`).
 * style="padding:5px;" Adds a style to the loremimage. Default is empty
 
- **Example**
+**Example**
 
+```
 [lorem p="1" l="20" w="5"]
     [loremimage size="300x300" style="padding:5px;"]
 [/lorem]
-`
+```
 
 For more information and screenshots, please see the [plugin home page](http://soderlind.no/archives/2010/11/17/lorem-shortcode/)
 
@@ -71,15 +72,9 @@ Installation
 * Click on install to install the lorem shortcode
 
 
-== Changelog ==
-= 1.2.0 =
-* Added [Shortcake](https://github.com/fusioneng/Shortcake)
-= 1.1.1 =
-* Tested with 3.9, bumped version number
-= 1.1 =
-* Added support for embedded shortcodes and added the [loremimage] short code. The [loremimage] can be used by itself. The image is created using [http://dummyimage.com/](http://dummyimage.com/)
-= 1.0 =
-* initial release
+## Changelog ##
+
+Please [see the CHANGELOG.md](CHANGELOG.md) file.
 
 Contributors
 ---
