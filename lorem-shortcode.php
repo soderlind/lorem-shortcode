@@ -76,18 +76,18 @@ class SoderlindLorem {
 	 * @return  string            generated lorem ipsum.
 	 */
 	function lorem( $atts, $content = null ) {
-		extract( shortcode_atts( array(// default values
+		$atts = shortcode_atts( array(// default values
 			'w'     => 5,
 			'p'     => 5,
 			'l'     => 3,
 			'align' => 'right',
-		), $atts ) );
+		), $atts );
 
 		if ( $this->doparamcheck ) { // do param testing
-			$w     = strval( intval( $w ) );
-			$p     = strval( intval( $p ) );
-			$l     = strval( intval( $l ) );
-			$align = ( strcasecmp( $align, 'left' ) == 0 ) ? ' class="alignleft"' : ' class="alignright"'; // align the embedded image
+			$w     = strval( intval( $atts['w'] ) );
+			$p     = strval( intval( $atts['p'] ) );
+			$l     = strval( intval( $atts['l'] ) );
+			$align = ( strcasecmp( $atts['align'], 'left' ) == 0 ) ? ' class="alignleft"' : ' class="alignright"'; // align the embedded image
 		}
 
 		if ( isset( $w ) and $w > 0 ) {
@@ -143,22 +143,22 @@ class SoderlindLorem {
 	 * @return  string         image url
 	 */
 	function loremimage( $atts ) {
-		extract( shortcode_atts( array(// default values
+		$atts = shortcode_atts( array(// default values
 			'size'    => '300x200', // alternative sizes, see http://dummyimage.com/
 			'text'    => '',
 			'bgcolor' => 'eee',
 			'fgcolor' => 'ccc',
 			'format'  => 'png',
 			'style'   => '',
-		), $atts ) );
+		), $atts );
 
 		if ( $this->doparamcheck ) { // do param testing
-			$size    = urlencode( wp_filter_nohtml_kses( $size ) );
-			$text    = urlencode( wp_filter_nohtml_kses( $text ) );
-			$bgcolor = urlencode( wp_filter_nohtml_kses( $bgcolor ) );
-			$fgcolor = urlencode( wp_filter_nohtml_kses( $fgcolor ) );
-			$format  = urlencode( wp_filter_nohtml_kses( $format ) );
-			$style   = wp_filter_nohtml_kses( $style );
+			$size    = urlencode( wp_filter_nohtml_kses( $atts['size'] ) );
+			$text    = urlencode( wp_filter_nohtml_kses( $atts['text'] ) );
+			$bgcolor = urlencode( wp_filter_nohtml_kses( $atts['bgcolor'] ) );
+			$fgcolor = urlencode( wp_filter_nohtml_kses( $atts['fgcolor'] ) );
+			$format  = urlencode( wp_filter_nohtml_kses( $atts['format'] ) );
+			$style   = wp_filter_nohtml_kses( $atts['style'] );
 		}
 
 		if ( strcasecmp( $size, 'thumb' ) == 0 ) { // show thumb with link to image

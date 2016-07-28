@@ -12,7 +12,7 @@ The plugin contains two shortcodes, lorem and loremimage, the loremimage shortco
 The plugin contains two shortcodes, `[lorem]` and `[loremimage]`, the `[loremimage]` shortcode can be nested in the `[lorem]` shortcode. The shortcodes generates dummy text and image when needed.
 
 = Usage =
-Add the `[lorem]` and/or `[loremimage]` shortcode to a post or page, or if the [Shortcode UI](https://wordpress.org/plugins/shortcode-ui/) plugin is installed and activatec, in the visual editor, click `Add Media->Insert Post Element->Lorem Ipsum` to add the shortcode.
+Add the `[lorem]` and/or `[loremimage]` shortcode to a post or page, or if the [Shortcode UI](https://wordpress.org/plugins/shortcode-ui/) plugin is installed and activated, in the visual editor, click `Add Media->Insert Post Element->Lorem Ipsum` to add the shortcode.
 
 = Parameters, all are optional =
 
