@@ -3,8 +3,8 @@ Contributors: PerS
 Donate link: http://soderlind.no/donate/
 Tags: lorem ipsum, dummy text, dummy image, shortcode, shortcake, shortcode-ui
 Requires at least: 2.8.6
-Tested up to: 4.5.3
-Stable tag: 1.3.0
+Tested up to: 4.6
+Stable tag: 1.3.1
 
 The plugin contains two shortcodes, lorem and loremimage, the loremimage shortcode can be nested in the lorem shortcode.
 
@@ -89,6 +89,9 @@ Shortcode, a "shortcut to code", makes it easy to add funtionality to a page or 
 2. Using Shortcode UI, edit existing `[lorem]` shortcode.
 
 == Changelog ==
+= 1.3.1 =
+* Remove `extract()` *blush*
+* Tested & found compatible with WP 4.6.
 = 1.3.0 =
 * Update plugin to WPCS standards. Update Shortcode UI support.
 * Remove old Shortcode UI files
