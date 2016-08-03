@@ -185,7 +185,7 @@ class SoderlindLorem {
 		$words        = array();
 		$lipsum_words = explode( ' ', $this->str_lipsum );
 		for ( $i = 0; $i < $count; $i ++ ) {
-			$random_index = round( rand( 0, count( $lipsum_words ) ) );
+			$random_index = round( rand( 0, count( $lipsum_words ) - 1 ) );
 			$words[]      = $lipsum_words[ $random_index ];
 		}
 
