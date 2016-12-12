@@ -1,8 +1,8 @@
 {
   "name": "lorem-shortcode",
   "title": "lorem shortcode",
-  "version": "1.3.2",
-  "git_tag": "1.3.2",
+  "version": "1.3.3",
+  "git_tag": "1.3.3",
   "description": "The plugin contains two shortcodes, lorem and loremimage, the loremimage shortcode can be nested in the lorem shortcode.",
   "main": "lorem-shortcode.php",
   "scripts": {
